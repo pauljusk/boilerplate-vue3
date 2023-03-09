@@ -1,0 +1,49 @@
+{
+  "name": "vue3-todo",
+  "author": "Paulius Juskevicius",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview --port 4173",
+    "test": "cypress open",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.3",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.21",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@types/node": "^16.11.56",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "@vue/tsconfig": "^0.1.3",
+    "babel-loader": "^8.2.5",
+    "cypress": "^10.8.0",
+    "cypress-localstorage-commands": "^2.2.2",
+    "eslint": "^8.22.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "typescript": "~4.7.4",
+    "vite": "^3.0.9",
+    "vitest": "^0.23.0",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.40.7"
+  }
+}

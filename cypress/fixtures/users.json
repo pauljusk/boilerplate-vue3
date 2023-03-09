@@ -1,0 +1,14 @@
+{
+  "regular": {
+    "username": "testRegular",
+    "password": "testRegular"
+  },
+  "manager": {
+    "username": "testManager",
+    "password": "testManager"
+  },
+  "admin": {
+    "username": "testAdmin",
+    "password": "testAdmin"
+  }
+}
